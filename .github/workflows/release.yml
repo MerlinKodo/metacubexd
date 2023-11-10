@@ -91,6 +91,6 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/metacubex/metacubexd:latest
+            ghcr.io/merlinkodo/metacubexd:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
